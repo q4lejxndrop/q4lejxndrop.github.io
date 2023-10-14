@@ -1,0 +1,118 @@
+body {
+font-family: batman,sans-serif;
+background-image:url(IMAGENES/P2.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+@font-face {
+    font-family: batman;
+    src: url(FUENTE/batmfa_.ttf)
+}
+
+/*01 Logo tecnimux parte superior derecha*/  
+.T2 {
+    position: relative;
+}
+.T2 img{
+    float: right;
+    width: 100px;
+    height: auto;
+    opacity: 100;
+    position: absolute;
+    top: 7px;
+    left: 1750px;
+}
+/*02 Logo tecnimux parte superior derecha*/
+h1 {
+    color: white;
+    letter-spacing: 4px;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+
+p {
+    color: white;
+    letter-spacing: 1px;
+}
+
+p3 {
+    color: white;
+}
+
+.T3 {
+    float:;
+    color: white;
+}
+.T4 {
+    float:inline-end ;
+    color: white;
+    letter-spacing: 3px;
+}
+
+
+.L1 {
+
+}
+.L1 img {
+    width: 100px;
+    height: auto;
+
+}
+
+
+.L2 {
+    position: relative;
+
+}
+.L2 img {
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+    top: -100px;
+    left:160px;
+}
+
+.colombia01 {
+position: relative;
+}
+
+.colombia01 img {
+    width:40px;
+    height:auto;
+position: absolute;
+}
+.colombia02 {
+position: relative;
+}
+.colombia02 img {
+    width: 40px;
+    height:auto;
+    position:absolute;
+    top:30px;
+}
+
+.P01 {
+    position: relative;
+}
+.P01  {
+    position: absolute;
+    top: 226;
+ 
+    padding: 10px;
+}
+
+.P02 {
+position: relative;
+}
+
+.P02 {
+    position:absolute;
+    top: 238px;
+    left: 168px;
+
+}

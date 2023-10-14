@@ -1,12 +1,12 @@
 body {
-    background-image:url(IMAGENES/background_yt.jpg);
+    background-image:url(background_yt.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     }
    
     @font-face {
         font-family: batman;
-        src: url(FUENTE/batmfa_.ttf)
+        src: url(batmfa_.ttf)
     }
 
     /*01 Logo tecnimux parte superior derecha*/  

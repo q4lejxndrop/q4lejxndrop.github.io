@@ -119,8 +119,8 @@ position: relative;
 .HACKER {
     position: relative;
 }
-.HACKER img {
+.HACKER {
     position: absolute;
-    top: 38px;
-    left: 68px;
+    top: 238px;
+    left: 168px;
 }

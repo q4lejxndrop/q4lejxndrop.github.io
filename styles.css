@@ -77,6 +77,19 @@ p3 {
     left:160px;
 }
 
+.HACKER {
+    position: relative;
+
+}
+.HACKER img {
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+    top: -100px;
+    left:160px;
+}
+
 .colombia01 {
 position: relative;
 }
@@ -115,14 +128,3 @@ position: relative;
     top: 238px;
     left: 168px;
 
-.HACKER {
-    position: relative;
-
-}
-.HACKER img {
-    width: 100px;
-    height: auto;
-
-    position: absolute;
-    top: -100px;
-    left:160px;

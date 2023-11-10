@@ -142,9 +142,14 @@ position: relative;
 }
 
 
-
 .P03 {
-    position:absolute;
-    top:238px;
-    left:188px;
+    position: relative;
 }
+.P03  {
+    position: absolute;
+    top: 238px;
+    left: 168px;
+
+}
+
+

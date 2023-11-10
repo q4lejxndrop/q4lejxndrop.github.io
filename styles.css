@@ -44,7 +44,7 @@ p3 {
 }
 
 .T3 {
-    float:;
+    float:inline-end;
     color: white;
 }
 .T4 {
@@ -55,7 +55,7 @@ p3 {
 
 
 .L1 {
-
+position: relative;
 }
 .L1 img {
     width: 100px;
@@ -129,9 +129,22 @@ position: relative;
     top: 238px;
     left: 168px;
 
+}
+
+.HACKER {
+    position: relative;
+}
+.HACKER img {
+    width: 40px;
+    height:auto;
+    position:absolute;
+    top:30px;
+}
+
 
 
 .P03 {
     position:absolute;
     top:238px;
     left:188px;
+}

@@ -44,9 +44,14 @@ filter: grayscale(5%);
 
 }
 .A_ILLUSTRATOR{
-    width:100px;
-    height:100px;
     left: 80px;
     filter: grayscale(5%); 
-}
+        width: 100px;
+        height: 100px;
+        transition: transform 0.3s ease-in-out; /* Propiedad, duración y función de temporización */
+    }
+    
+    .A_ILLUSTRATOR {
+        transform: scale(1.2); /* Aumenta la escala del elemento al pasar el ratón sobre él */
+    }
 

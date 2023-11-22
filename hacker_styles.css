@@ -36,12 +36,14 @@ filter: grayscale(5%);
 .A_PHOTOSHOP{
 width:100px;
 height:100px;
+left: 40px;
 filter: grayscale(5%);
 
 }
 .A_ILLUSTRATOR{
     width:100px;
     height:100px;
+    left: 80px;
     filter: grayscale(5%); 
 }
 

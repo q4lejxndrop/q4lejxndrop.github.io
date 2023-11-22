@@ -30,6 +30,13 @@ body {
 .A_PREMIERE{
 width:100px;
 height:100px;
-filter: grayscale(50%);
+filter: grayscale(5%);
+}
+
+.A_PHOTOSHOP{
+width:100px;
+height:100px;
+filter: grayscale(5%);
+
 }
 

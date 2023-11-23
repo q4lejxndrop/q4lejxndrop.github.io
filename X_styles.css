@@ -127,14 +127,15 @@ position: relative;
     top:30px;
 }
 
+
+/*( P ) Palabras de botones */
 .P01 {
     position: relative;
 }
 .P01  {
     position: absolute;
     top: 226px;
- 
-    padding: 10px;
+    
 }
 
 .P02 {
@@ -144,7 +145,7 @@ position: relative;
 .P02 {
     position:absolute;
     top: 238px;
-    left: 168px;
+    left: 170px;
 
 }
 
@@ -156,7 +157,7 @@ position: relative;
 .P03  {
     position: absolute;
     top: 238px;
-    left: 300px;
+    left: 320px;
 
 }
 
@@ -167,7 +168,7 @@ position: relative;
 }
 .P04 {
     position:absolute;
-    top: 300px;
+    top: 238px;
     left:500px;
 }
 

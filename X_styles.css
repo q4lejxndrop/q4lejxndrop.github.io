@@ -116,6 +116,7 @@ position: relative;
     width:40px;
     height:auto;
 position: absolute;
+top: 500px;
 }
 .colombia02 {
 position: relative;
@@ -124,7 +125,7 @@ position: relative;
     width: 40px;
     height:auto;
     position:absolute;
-    top:30px;
+    top:550px;
 }
 
 

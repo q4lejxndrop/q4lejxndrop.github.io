@@ -10,9 +10,6 @@ background-repeat: no-repeat;
 }
 
 /*01 Logo tecnimux parte superior derecha*/  
-
-
-
 .T2 {
     position: relative;
 }
@@ -24,7 +21,8 @@ background-repeat: no-repeat;
     top: 7px;
     left: 1750px;
 }
-/*02 Logo tecnimux parte superior derecha*/
+
+/*Caracteristicas del texto*/
 h1 {
     color: white;
     letter-spacing: 4px;
@@ -54,7 +52,7 @@ p3 {
     letter-spacing: 3px;
 }
 
-
+/* Iconos */
 .L1 {
 position: relative;
 }
@@ -106,29 +104,6 @@ position: relative;
 }
 
 
-
-
-.colombia01 {
-position: relative;
-}
-
-.colombia01 img {
-    width:40px;
-    height:auto;
-position: absolute;
-top: 500px;
-}
-.colombia02 {
-position: relative;
-}
-.colombia02 img {
-    width: 40px;
-    height:auto;
-    position:absolute;
-    top:550px;
-}
-
-
 /*( P ) Palabras de botones */
 .P01 {
     position: relative;
@@ -175,28 +150,54 @@ position: relative;
     left:500px;
 }
 
-
+/* Login */
 .W01 {
     position:relative;
 }
 
 .W01{
     position:absolute;
-    top: 450px;
+    top: 400px;
 }
 
-
-.T3 {
-    position:relative;
-}
-
-.T3 {
-    position:absolute
-    top: 450px;
-}
    
+/* Bandera y Sombrero */
 
+.colombia01 {
+    position: relative;
+    }
+    
+    .colombia01 img {
+        width:40px;
+        height:auto;
+    position: absolute;
+    top: 645px;
+    }
+    .colombia02 {
+    position: relative;
+    }
+    .colombia02 img {
+        width: 40px;
+        height:auto;
+        position:absolute;
+        top:675px;
+    }
+    
+    
+/* Desarrollador */
     .T4 {
         position:relative;
-        top: 500px;
+        top: 600px;
+    }
+    
+/* Creditos */
+    .Creditos {
+        position:relative;
+        top: 700px;
+    }
+
+/* Eslogan */
+    .Eslogan {
+        position:relative;
+        top: 640px;
     }

@@ -173,3 +173,11 @@ position: relative;
 }
 
 
+.W01 {
+    position:relative;
+}
+
+.W01{
+    position:absolute;
+    top: 600px;
+}

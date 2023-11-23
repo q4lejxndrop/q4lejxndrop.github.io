@@ -1,0 +1,67 @@
+body {
+    background-image:url(/FLIPPERZERO.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+   
+    @font-face {
+        font-family: batman;
+        src: url(batmfa_.ttf)
+    }
+
+    /*01 Logo tecnimux parte superior derecha*/  
+.T2 {
+    position: relative;
+}
+.T2 img{
+    float: right;
+    width: 100px;
+    height: auto;
+    opacity: 100;
+    position: absolute;
+    top: 7px;
+    left: 1750px;
+}
+/*02 Logo tecnimux parte superior derecha*/
+
+
+
+
+.A_PREMIERE{
+width:100px;
+height:100px;
+filter: grayscale(5%);
+}
+
+.A_PHOTOSHOP{
+width:100px;
+height:100px;
+left: 40px;
+filter: grayscale(5%);
+
+    top: -100px;
+    left: 290px;
+
+}
+.A_ILLUSTRATOR{
+    left: 80px;
+    filter: grayscale(5%); 
+        width: 100px;
+        height: 100px;
+        transition: transform 0.3s ease-in-out; /* Propiedad, duración y función de temporización */
+    }
+    
+    .A_ILLUSTRATOR {
+        transform: scale(1.2); /* Aumenta la escala del elemento al pasar el ratón sobre él */
+    }
+
+    .A_A_EFFECTS{
+        width:100px;
+        height:100px;
+        left: 40px;
+        filter: grayscale(5%);
+        
+            top:  200px;
+            left: 200px;
+            }
+        

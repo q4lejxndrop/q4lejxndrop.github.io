@@ -1,6 +1,7 @@
 body {
     background-image:url(/FLIPPERZERO.jpeg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     }
    
@@ -29,13 +30,13 @@ body {
 
 .A_PREMIERE{
 width:100px;
-height:100px;
+height:auto;
 filter: grayscale(5%);
 }
 
 .A_PHOTOSHOP{
 width:100px;
-height:100px;
+height:auto;
 left: 40px;
 filter: grayscale(5%);
 
@@ -47,7 +48,7 @@ filter: grayscale(5%);
     left: 80px;
     filter: grayscale(5%); 
         width: 100px;
-        height: 100px;
+        height: auto;
         transition: transform 0.3s ease-in-out; /* Propiedad, duración y función de temporización */
     }
     

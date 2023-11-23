@@ -135,7 +135,9 @@ position: relative;
 }
 .P01  {
     position: absolute;
-    top: 226px;
+    
+    left:38px;
+    top: 216px;
     
 }
 
@@ -145,7 +147,7 @@ position: relative;
 
 .P02 {
     position:absolute;
-    top: 238px;
+    top: 218px;
     left: 170px;
 
 }
@@ -157,7 +159,7 @@ position: relative;
 }
 .P03  {
     position: absolute;
-    top: 238px;
+    top: 218px;
     left: 320px;
 
 }
@@ -169,7 +171,7 @@ position: relative;
 }
 .P04 {
     position:absolute;
-    top: 238px;
+    top: 218px;
     left:500px;
 }
 

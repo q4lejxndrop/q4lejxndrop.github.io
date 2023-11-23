@@ -23,46 +23,37 @@ body {
     top: 7px;
     left: 1750px;
 }
-/*02 Logo tecnimux parte superior derecha*/
+/* texto */
+.h4 {
+    color: white;
+}
 
 
-
-
-.A_PREMIERE{
-width:100px;
+/* iconos */
+.A_PREMIERE {
+width:60px;
 height:auto;
 filter: grayscale(5%);
 }
 
-.A_PHOTOSHOP{
-width:100px;
+.A_PHOTOSHOP {
+width:60px;
 height:auto;
 left: 40px;
 filter: grayscale(5%);
-
-    top: -100px;
-    left: 290px;
-
 }
-.A_ILLUSTRATOR{
-    left: 80px;
-    filter: grayscale(5%); 
-        width: 100px;
-        height: auto;
-        transition: transform 0.3s ease-in-out; /* Propiedad, duración y función de temporización */
-    }
-    
-    .A_ILLUSTRATOR {
-        transform: scale(1.2); /* Aumenta la escala del elemento al pasar el ratón sobre él */
-    }
 
-    .A_A_EFFECTS{
-        width:100px;
-        height:100px;
-        left: 40px;
-        filter: grayscale(5%);
-        
-            top:  200px;
-            left: 200px;
-            }
+.A_ILLUSTRATOR {
+width: 60px;
+height: auto;
+left: 80px;
+ filter: grayscale(5%); 
+}
+    
+.A_AFTER_EFFECTS {
+ width:60px;
+ height:auto;
+left: 40px;
+filter: grayscale(5%);
+}
         

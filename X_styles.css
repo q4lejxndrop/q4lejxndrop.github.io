@@ -57,11 +57,11 @@ p3 {
 position: relative;
 }
 .L1 img {
-    width: 100px;
+    width: 12%;
     height: auto;
 
     position: absolute;
-    top: -10px;
+    top: -18px;
     left:20px;
 
 }
@@ -71,7 +71,7 @@ position: relative;
     position: relative;
 }
 .L2 img {
-    width: 100px;
+    width: 10%;
     height: auto;
 
     position: absolute;
@@ -84,7 +84,7 @@ position: relative;
 
 }
 .L3 img {
-    width: 100px;
+    width: 10%;
     height: auto;
 
     position: absolute;
@@ -94,7 +94,7 @@ position: relative;
 }
 
 .L4 img {
-    width: 80px;
+    width: 8%;
     height: auto;
 
     position: absolute;
@@ -168,7 +168,7 @@ position: relative;
     }
     
     .colombia01 img {
-        width:40px;
+        width:4%;
         height:auto;
     position: absolute;
     top: 645px;
@@ -177,7 +177,7 @@ position: relative;
     position: relative;
     }
     .colombia02 img {
-        width: 40px;
+        width: 4%;
         height:auto;
         position:absolute;
         top:675px;

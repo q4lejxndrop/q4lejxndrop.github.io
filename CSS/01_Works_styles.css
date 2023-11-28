@@ -9,19 +9,18 @@ body {
         font-family: batman;
         src: url(/FUENTES/batmfa_.ttf)
     }
-
-    /*01 Logo tecnimux parte superior derecha*/  
+    
+/*01 Logo tecnimux parte superior derecha*/  
 .T2 {
     position: relative;
 }
 .T2 img{
-    float: inline-end;
-    width: 100px;
+    width: 10%;
     height: auto;
     opacity: 100;
     position: absolute;
-    top: 7px;
-    left: 1750px;
+    top: 3px;
+    left: 840px;
 }
-/*02 Logo tecnimux parte superior derecha*/
+
 

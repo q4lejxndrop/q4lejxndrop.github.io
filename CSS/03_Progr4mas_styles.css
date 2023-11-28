@@ -24,6 +24,11 @@ body {
 
 
 /* texto */
+h1 {
+    color:rgb(183, 0, 255);
+}
+
+
 h4 {
     color:white;}
    

@@ -41,34 +41,34 @@ color: rgb(255, 0, 0);
     
 
 /* iconos */
-.A_PREMIERE {
+.A_PREMIERE img{
 width:60px;
 height:auto;
 filter: grayscale(5%);
 }
 
-.A_PHOTOSHOP {
+.A_PHOTOSHOP img{
 width:60px;
 height:auto;
 left: 40px;
 filter: grayscale(5%);
 }
 
-.A_ILLUSTRATOR {
+.A_ILLUSTRATOR img{
 width: 60px;
 height: auto;
 left: 80px;
  filter: grayscale(5%); 
 }
     
-.A_AFTER_EFFECTS {
+.A_AFTER_EFFECTS img{
  width:60px;
  height:auto;
 left: 40px;
 filter: grayscale(5%);
 }
 
-.VM_WARE {
+.VM_WARE img{
     width:50px;
     height:auto;
    left: 40px;
@@ -76,7 +76,7 @@ filter: grayscale(5%);
    }  
 
 
-   .S_OFFICE {
+   .S_OFFICE img{
     width:50px;
     height:auto;
     left: 40px;
@@ -84,7 +84,7 @@ filter: grayscale(5%);
    }
 
 
-   .KMS_PICO {
+   .KMS_PICO img{
     width:60px;
     height:auto;
     left: 40px;

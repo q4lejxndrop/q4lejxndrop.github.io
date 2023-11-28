@@ -18,9 +18,48 @@ background-repeat: no-repeat;
     height: auto;
     opacity: 100;
     position: absolute;
-    top: 3px;
+    top: 18px;
     left: 840px;
 }
+/* ( S REDES SOCIALES) */
+.S1 img{
+    width: 5%;
+    height: auto;
+
+    position: absolute;
+    top: 18px;
+    left:650px;
+}
+
+.S2 img{
+    width: 5%;
+    height: auto;
+
+    position: absolute;
+    top: 18px;
+    left:700px;
+}
+
+.S3 img{
+    width: 5%;
+    height: auto;
+
+    position: absolute;
+    top: 12px;
+    left:750px;
+}
+
+.S4 img{
+    width: 3.5%;
+    height: auto;
+
+    position: absolute;
+    top: 18px;
+    left:800px;
+}
+
+
+
 
 /*Caracteristicas del texto*/
 h1 {

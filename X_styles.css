@@ -1,7 +1,7 @@
 body {
 font-family: batman,sans-serif;
 background-image:url(P2.jpg);
-background-size:80% ;
+background-size: contain;
 background-repeat: no-repeat;
 }
 @font-face {
@@ -18,8 +18,8 @@ background-repeat: no-repeat;
     height: auto;
     opacity: 100;
     position: absolute;
-    top: 7px;
-    left: 1750px;
+    top: 3px;
+    left: 840px;
 }
 
 /*Caracteristicas del texto*/
@@ -57,11 +57,11 @@ p3 {
 position: relative;
 }
 .L1 img {
-    width: 10%;
+    width: 12%;
     height: auto;
 
     position: absolute;
-    top: -10px;
+    top: -18px;
     left:20px;
 
 }
@@ -111,7 +111,7 @@ position: relative;
 .P01  {
     position: absolute;
     
-    left:38px;
+    left:46px;
     top: 216px;
     
 }
@@ -186,9 +186,8 @@ position: relative;
     
 /* Desarrollador */
     .T4 {
-        position:absolute;
-        top: 850px ;
-        left: 500px;
+        position:relative;
+        top: 600px;
     }
     
 /* Creditos */

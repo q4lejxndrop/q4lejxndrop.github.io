@@ -1,33 +1,40 @@
 body {
     background-image:url(/FLIPPERZERO.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
     }
    
     @font-face {
         font-family: batman;
         src: url(/FUENTES/batmfa_.ttf)
-    }
+       }
 
-    /*01 Logo tecnimux parte superior derecha*/  
+/*01 Logo tecnimux parte superior derecha*/  
 .T2 {
     position: relative;
 }
 .T2 img{
-    float: right;
-    width: 100px;
+    width: 10%;
     height: auto;
     opacity: 100;
     position: absolute;
-    top: 7px;
-    left: 1750px;
-}
-/* texto */
-.h4 {
-    color: white;
+    top: 3px;
+    left: 840px;
 }
 
+
+/* texto */
+h4 {
+    color:white;}
+   
+
+
+h3 {
+color: rgb(255, 0, 0);
+}
+
+
+    
 
 /* iconos */
 .A_PREMIERE {
@@ -56,4 +63,26 @@ left: 80px;
 left: 40px;
 filter: grayscale(5%);
 }
+
+.VMWARE {
+    width:60px;
+    height:auto;
+   left: 40px;
+   filter: grayscale(5%);
+   }  
+
+   .S_OFFICE {
+    width:60px;
+    height:auto;
+   left: 40px;
+   filter: grayscale(5%);
+   }
+
+
+   .KMSPICO {
+    width:60px;
+    height:auto;
+   left: 40px;
+   filter: grayscale(5%);
+   }
         

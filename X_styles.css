@@ -62,9 +62,13 @@ background-repeat: no-repeat;
 
 
 /*Caracteristicas del texto*/
-.ESLOGAN {
+.ESLOGAN_02 {
+    position: fixed;
+    top: 35px;
+
+   
+   
     font-size: 10px;
-   font-st;
 }
 .INICIO {
     font-size: 18px;

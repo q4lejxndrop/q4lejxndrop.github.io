@@ -17,7 +17,7 @@ background-repeat: no-repeat;
     width: 10%;
     height: auto;
     opacity: 100;
-    position: absolute;
+    position: fixed;
     top: 18px;
     left: 840px;
 }

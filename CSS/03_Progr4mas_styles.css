@@ -17,7 +17,7 @@ body {
     width: 10%;
     height: auto;
     opacity: 100;
-    position: absolute;
+    position: fixed;
     top: 3px;
     left: 840px;
 }

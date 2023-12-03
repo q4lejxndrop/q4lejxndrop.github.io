@@ -60,10 +60,13 @@ background-repeat: no-repeat;
 
 
 
-
 /*Caracteristicas del texto*/
+.Titulo_01 {
+    position: relative;
+    font-size: 28px;
+}
+
 .ESLOGAN_02 {
-    position: fixed;
     top: 35px;
     font-size: 10px;
 }

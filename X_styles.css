@@ -18,7 +18,6 @@ background-repeat: no-repeat;
     height: auto;
     opacity: 100;
     position: fixed;
-    top: 18px;
     left: 840px;
 }
 /* ( S REDES SOCIALES) */
@@ -73,7 +72,6 @@ background-repeat: no-repeat;
 }
 .INICIO {
     font-size: 18px;
-    font-style: color:#990000;
     letter-spacing: 8px;
 }
 h1 {

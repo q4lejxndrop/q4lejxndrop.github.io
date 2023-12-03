@@ -62,6 +62,10 @@ background-repeat: no-repeat;
 
 
 /*Caracteristicas del texto*/
+.ESLOGAN {
+   size: 10px; 
+   color: violet;
+}
 h1 {
     color: white;
     letter-spacing: 4px;

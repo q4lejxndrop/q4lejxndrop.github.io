@@ -63,11 +63,13 @@ background-repeat: no-repeat;
 
 /*Caracteristicas del texto*/
 .ESLOGAN {
-   size: 10px; 
-   color: violet;
+    font-size: 10px;
+   font-st;
 }
 .INICIO {
-    color: red;
+    font-size: 18px;
+    font-style: color:#990000;
+    letter-spacing: 8px;
 }
 h1 {
     color: white;

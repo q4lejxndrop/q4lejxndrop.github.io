@@ -66,6 +66,9 @@ background-repeat: no-repeat;
    size: 10px; 
    color: violet;
 }
+.INICIO {
+    color: red;
+}
 h1 {
     color: white;
     letter-spacing: 4px;

@@ -163,41 +163,32 @@ position: relative;
     position: absolute;
     
     left:46px;
-    top: 236px;
+    top: 238px;
     
 }
 
-.P02 {
-position: relative;
-}
+
 
 .P02 {
-    position:absolute;
+    position: absolute;
     left: 179px;
-    top: 236px;
+    top: 238px;
 }
 
 
 
-.P03 {
-    position: relative;
-}
 .P03  {
     position: absolute;
     left: 320px;
-    top: 236px;
+    top: 238px;
 
 }
 
 
-
-.P04 {
-    position:relative ;
-}
 .P04 {
     position:absolute;
     left:490px;
-    top: 236px;
+    top: 238px;
 }
 
 /* Login */

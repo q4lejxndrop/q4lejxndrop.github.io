@@ -108,7 +108,7 @@ p3 {
 position: relative;
 }
 .L1 img {
-    width: 12%;
+    width: 12.5%;
     height: auto;
 
     position: absolute;
@@ -141,29 +141,29 @@ position: relative;
     position: absolute;
     top: -10px;
     left: 320px;
-
 }
 
+.L4 {
+    position: relative;
+}
 .L4 img {
     width: 8%;
     height: auto;
 
     position: absolute;
-    top: 95px;
-    left: 500px;
+    top:5px;
+    left: 493px;
 
 }
 
 
 /*( P ) Palabras de botones */
-.P01 {
-    position: relative;
-}
+
 .P01  {
     position: absolute;
     
     left:46px;
-    top: 216px;
+    top: 236px;
     
 }
 
@@ -173,9 +173,8 @@ position: relative;
 
 .P02 {
     position:absolute;
-    top: 218px;
     left: 179px;
-
+    top: 236px;
 }
 
 
@@ -185,8 +184,8 @@ position: relative;
 }
 .P03  {
     position: absolute;
-    top: 218px;
     left: 320px;
+    top: 236px;
 
 }
 
@@ -197,8 +196,8 @@ position: relative;
 }
 .P04 {
     position:absolute;
-    top: 218px;
     left:490px;
+    top: 236px;
 }
 
 /* Login */

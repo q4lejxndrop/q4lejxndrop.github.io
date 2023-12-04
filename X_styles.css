@@ -29,7 +29,7 @@ header {
     max-width: 5rem;
     cursor: pointer;
     background-color:transparent;
-    box-shaow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 .Nav_Bar {
     list-style: none;
@@ -70,7 +70,7 @@ cursor: pointer;
     flex-direction: column;
     align-items: end;
     gap:1rem ;
-    position: relative;
+    position: fixedç;
     top: 0;
     right:0;
     bottom:0;

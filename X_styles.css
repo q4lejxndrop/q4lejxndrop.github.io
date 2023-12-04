@@ -1,7 +1,6 @@
 body {
 font-family: batman,sans-serif;
-background-image:url(P2.jpg);
-background-repeat: no-repeat;
+margin: 0;
 
 }
 
@@ -109,37 +108,37 @@ cursor: pointer;
 
 /* ( S REDES SOCIALES) */
 .S1 img {
-    width: 5%;
+    width: 5rex;
     height: auto;
 
-    position: absolute;
+    position: fixed;
     top: 8px;
     left:400px;
 }
 
 .S2 img {
-    width: 5%;
+    width: 5rex;
     height: auto;
 
-    position: absolute;
+    position: fixed;
     top:8px;
     left:450px;
 }
 
 .S3 img {
-    width: 5%;
+    width: 5rex;
     height: auto;
 
-    position: absolute;
+    position: fixed;
     top: 3px;
     left:500px;
 }
 
 .S4 img {
-    width: 3.5%;
+    width: 3rex;
     height: auto;
 
-    position: absolute;
+    position: fixed;
     top: 8px;
     left:550px;
 }
@@ -332,3 +331,25 @@ position: relative;
         cursor: pointer;
     }
 
+#BK {
+    min-height: 100vh;
+    position: relative;
+}
+video {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Capa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-color: #3b3b3b;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}

@@ -21,24 +21,25 @@ header {
     display: flex;
     align-items:center;
     justify-content:space-between ;
-    padding: 18px;
+    padding: 1rem;
     background-color: rgba(44, 43, 44, 0.747);
+    font-size: 1.5rem;
 }
 /*Logo tecnimux*/  
 .Logo_Tx {
     max-width: 5rem;
     cursor: pointer;
     background-color:transparent;
-    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
 }
 .Nav_Bar {
     list-style: none;
     display: flex;
-    gap: 6rem;
+    gap: 2rem;
+        align-items: end;
 }
 .Nav_Bar li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ff0000;
 }
 
 .Open,
@@ -51,9 +52,10 @@ header {
     .Close {
     display: block;
     border: 0;
-    font-size: 5rem;
+    font-size: 7rem;
     background-color: transparent;
 cursor: pointer;
+
 }
     .Open {
         color: #ffffff;
@@ -70,12 +72,12 @@ cursor: pointer;
     flex-direction: column;
     align-items: end;
     gap:1rem ;
-    position: fixedç;
+    position: fixed;
     top: 0;
     right:0;
     bottom:0;
     background-color: #3b3b3b;
-    padding:2rem;
+    padding:8rem ;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
 }
 

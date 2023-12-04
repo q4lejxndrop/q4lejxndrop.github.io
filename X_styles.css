@@ -28,6 +28,8 @@ header {
 .Logo_Tx {
     max-width: 5rem;
     cursor: pointer;
+    background-color: transparent;
+
 }
 .Nav_Bar {
     list-style: none;

@@ -23,14 +23,15 @@ header {
     padding: 2rem;
     background-color: rgba(44, 43, 44, 0.747);
 }
-/*01 Logo tecnimux*/  
+/*Logo tecnimux*/  
 .Logo_Tx {
     max-width: 5rem;
+    cursor: pointer;
 }
 .Nav_Bar {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
 }
 .Nav_Bar li a {
     text-decoration: none;
@@ -47,9 +48,9 @@ header {
     .Close {
     display: block;
     border: 0;
-    font-size: 4rem;
+    font-size: 5rem;
     background-color: transparent;
-    cursor: pointer;
+
 }
     .Open {
         color: #ffffff;

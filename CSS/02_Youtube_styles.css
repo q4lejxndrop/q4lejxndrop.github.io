@@ -9,15 +9,8 @@ body {
         src: url(/FUENTES/batmfa_.ttf)
     }
 
-/*01 Logo tecnimux parte superior derecha*/  
-.T2 {
-    position: relative;
-}
-.T2 img{
-    width: 10%;
-    height: auto;
-    opacity: 100;
-    position: fixed;
-    left: 840px;
-}
-
+/*Logo tecnimux*/  
+.Logo_Tx {
+    max-width: 5rem;
+    cursor: pointer;
+    }

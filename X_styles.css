@@ -46,7 +46,7 @@ header {
     display: none;
 }
 
-@media  screen and (max-width:300px) {
+@media  screen and (max-width:200px) {
     .Open,
     .Close {
     display: block;

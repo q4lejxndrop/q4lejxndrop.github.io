@@ -2,11 +2,14 @@ body {
 font-family: batman,sans-serif;
 background-image:url(P2.jpg);
 background-repeat: no-repeat;
-margin: 0;
+
+}
+
+* {
+    margin: 0;
 padding:0;
 box-sizing: border-box;
 }
-
 @font-face {
     font-family: batman;
     src: url(FUENTES/batmfa_.ttf)
@@ -18,10 +21,10 @@ header {
     align-items:center;
     justify-content:space-between ;
     padding: 2rem;
-    background-color: rgba(53, 6, 97, 0.301);
+    background-color: rgba(44, 43, 44, 0.747);
 }
 /*01 Logo tecnimux*/  
-.Logo_Tx img {
+.Logo_Tx {
     max-width: 5rem;
 }
 .Nav_Bar {
@@ -137,12 +140,13 @@ header {
     font-size: 28px;
 }
 
-.ESLOGAN_02 {
-    position: relative;
+.Eslogan_02 {
     top: -20px;
     font-size: 10px;
-}
-.INICIO {
+   }
+
+.Inicio {
+
     font-size: 18px;
     letter-spacing: 8px;
 }
@@ -175,7 +179,7 @@ p3 {
     letter-spacing: 3px;
 }
 
-/* Iconos */
+/* Iconos 
 .L1 {
 position: relative;
 }
@@ -227,9 +231,9 @@ position: relative;
     left: 493px;
 
 }
+*/
 
-
-/*( P ) Palabras de botones */
+/*( P ) Palabras de botones 
 
 .P01  {
     position: absolute;
@@ -262,15 +266,12 @@ position: relative;
     left:490px;
     top: 238px;
 }
-
+*/
 /* Login */
-.W01 {
-    position:relative;
-}
 
 .W01{
-    position:absolute;
-    top: 340px;
+    position:relative;
+    top: 30px;
 }
 
    
@@ -284,7 +285,7 @@ position: relative;
         width:4%;
         height:auto;
     position: absolute;
-    top: 645px;
+    top: 145px;
     }
     .colombia02 {
     position: relative;
@@ -293,7 +294,7 @@ position: relative;
         width: 4%;
         height:auto;
         position:absolute;
-        top:675px;
+        top:175px;
     }
     
     
@@ -301,16 +302,17 @@ position: relative;
     .T4 {
         position:relative;
         top: 40px;
+    
     }
     
 /* Creditos */
     .Creditos {
         position:relative;
-        top: 700px;
+        top: 50px;
     }
 
 /* Eslogan */
     .Eslogan {
         position:relative;
-        top: 640px;
+        top: 40px;
     }

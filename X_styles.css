@@ -1,31 +1,103 @@
 body {
 font-family: batman,sans-serif;
 background-image:url(P2.jpg);
-background-size: contain;
 background-repeat: no-repeat;
+margin: 0;
+padding:0;
+box-sizing: border-box;
 }
+
 @font-face {
     font-family: batman;
     src: url(FUENTES/batmfa_.ttf)
 }
 
-/*01 Logo tecnimux parte superior derecha*/  
-.T2 {
-    position: relative;
+  
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between ;
+    padding: 2rem;
+    background-color: rgba(53, 6, 97, 0.301);
 }
-.T2 img{
-    width: 10%;
-    height: auto;
-    opacity: 100;
-    position: fixed;
-    left: 840px;
+/*01 Logo tecnimux*/  
+.Logo_Tx img {
+    max-width: 5rem;
 }
+.Nav_Bar {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.Nav_Bar li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Open,
+.Close {
+    display: none;
+}
+
+@media  screen and (max-width:550px) {
+    .Open,
+    .Close {
+    display: block;
+}
+
+.Nav_List {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap:1rem ;
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    background-color: #3b3b3b;
+    padding:2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+}
+
+
+.Nav_List.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Nav_Bar {
+    flex-direction: column;
+    align-items: end;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ( S REDES SOCIALES) */
 .S1 img{
     width: 5%;
     height: auto;
 
-    position: fixed;
+    position: absolute;
     top: 18px;
     left:650px;
 }
@@ -34,7 +106,7 @@ background-repeat: no-repeat;
     width: 5%;
     height: auto;
 
-    position: fixed;
+    position: absolute;
     top: 18px;
     left:700px;
 }
@@ -43,7 +115,7 @@ background-repeat: no-repeat;
     width: 5%;
     height: auto;
 
-    position: fixed;
+    position: absolute;
     top: 12px;
     left:750px;
 }
@@ -52,7 +124,7 @@ background-repeat: no-repeat;
     width: 3.5%;
     height: auto;
 
-    position: fixed;
+    position: absolute;
     top: 18px;
     left:800px;
 }

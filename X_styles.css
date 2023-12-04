@@ -91,9 +91,39 @@ cursor: pointer;
     flex-direction: column;
     align-items: end;
 }
+
+
+
+/*
+}
+
+.Redes_sociales.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Redes_s {
+    flex-direction: column;
+    align-items: end;
 }
 
 
+.Redes_sociales {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap:1rem ;
+    position: fixed;
+    top: 0;
+    right:0;
+    bottom:0;
+    background-color: #3b3b3b;
+    padding:8rem ;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+}
+*/
 
 
 
@@ -104,15 +134,9 @@ cursor: pointer;
 
 
 
-
-
-
-
-
-
-/* ( S REDES SOCIALES) */
+/* ( S REDES SOCIALES) 
 .S1 img {
-    width: 5rex;
+    width: 5rem;
     height: auto;
 
     position: fixed;
@@ -121,7 +145,7 @@ cursor: pointer;
 }
 
 .S2 img {
-    width: 5rex;
+    width: 5rem;
     height: auto;
 
     position: fixed;
@@ -130,7 +154,7 @@ cursor: pointer;
 }
 
 .S3 img {
-    width: 5rex;
+    width: 5rem;
     height: auto;
 
     position: fixed;
@@ -139,14 +163,14 @@ cursor: pointer;
 }
 
 .S4 img {
-    width: 3rex;
+    width: 3rem;
     height: auto;
 
     position: fixed;
     top: 8px;
     left:550px;
 }
-
+*/
 
 
 /*Caracteristicas del texto*/

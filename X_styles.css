@@ -16,10 +16,12 @@ box-sizing: border-box;
 
   
 header {
+    position: relative;
+    z-index: 2;
     display: flex;
     align-items:center;
     justify-content:space-between ;
-    padding: 2rem;
+    padding: 18px;
     background-color: rgba(44, 43, 44, 0.747);
 }
 /*Logo tecnimux*/  
@@ -66,7 +68,7 @@ cursor: pointer;
     flex-direction: column;
     align-items: end;
     gap:1rem ;
-    position: absolute;
+    position: relative;
     top: 0;
     right:0;
     bottom:0;
@@ -331,6 +333,9 @@ position: relative;
         cursor: pointer;
     }
 
+
+
+    /*Video de fondo*/
 #BK {
     min-height: 100vh;
     position: relative;

@@ -31,7 +31,7 @@ header {
 .Nav_Bar {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    gap: 6rem;
 }
 .Nav_Bar li a {
     text-decoration: none;
@@ -50,7 +50,7 @@ header {
     border: 0;
     font-size: 5rem;
     background-color: transparent;
-
+cursor: pointer;
 }
     .Open {
         color: #ffffff;
@@ -149,7 +149,7 @@ header {
 /*Caracteristicas del texto*/
 .Titulo_01 {
     position: relative;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .Eslogan_02 {
@@ -158,8 +158,9 @@ header {
    }
 
 .Inicio {
-
-    font-size: 18px;
+    position: relative;
+top: 20px;
+    font-size: 15px;
     letter-spacing: 8px;
 }
 h1 {
@@ -297,7 +298,7 @@ position: relative;
         width:4%;
         height:auto;
     position: absolute;
-    top: 145px;
+    top: 195px;
     }
     .colombia02 {
     position: relative;
@@ -306,25 +307,28 @@ position: relative;
         width: 4%;
         height:auto;
         position:absolute;
-        top:175px;
+        top:225px;
     }
     
     
 /* Desarrollador */
     .T4 {
         position:relative;
-        top: 40px;
-    
+        top: 390px;
     }
     
 /* Creditos */
     .Creditos {
         position:relative;
-        top: 50px;
+        top: 290px;
     }
 
 /* Eslogan */
     .Eslogan {
+        padding: 30rem;
+        font-size: 1rem;
+        color: transparent;
         position:relative;
-        top: 40px;
+        cursor: pointer;
     }
+

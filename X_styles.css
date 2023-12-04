@@ -46,7 +46,18 @@ header {
     .Open,
     .Close {
     display: block;
+    border: 0;
+    font-size: 4rem;
+    background-color: transparent;
+    cursor: pointer;
 }
+    .Open {
+        color: #ffffff;
+    }
+    .Close {
+        color: #ffffff;
+    }
+
 
 .Nav_List {
     opacity: 0;

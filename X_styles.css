@@ -39,7 +39,7 @@ header {
     display: none;
 }
 
-@media  screen and (max-width:750px) {
+@media  screen and (max-width:1000px) {
     .Open,
     .Close {
     display: block;
@@ -300,7 +300,7 @@ position: relative;
 /* Desarrollador */
     .T4 {
         position:relative;
-        top: 840px;
+        top: 40px;
     }
     
 /* Creditos */

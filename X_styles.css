@@ -39,7 +39,7 @@ header {
     display: none;
 }
 
-@media  screen and (max-width:550px) {
+@media  screen and (max-width:750px) {
     .Open,
     .Close {
     display: block;
@@ -93,40 +93,40 @@ header {
 
 
 /* ( S REDES SOCIALES) */
-.S1 img{
+.S1 img {
     width: 5%;
     height: auto;
 
     position: absolute;
-    top: 18px;
-    left:650px;
+    top: 8px;
+    left:400px;
 }
 
-.S2 img{
+.S2 img {
     width: 5%;
     height: auto;
 
     position: absolute;
-    top: 18px;
-    left:700px;
+    top:8px;
+    left:450px;
 }
 
-.S3 img{
+.S3 img {
     width: 5%;
     height: auto;
 
     position: absolute;
-    top: 12px;
-    left:750px;
+    top: 3px;
+    left:500px;
 }
 
-.S4 img{
+.S4 img {
     width: 3.5%;
     height: auto;
 
     position: absolute;
-    top: 18px;
-    left:800px;
+    top: 8px;
+    left:550px;
 }
 
 

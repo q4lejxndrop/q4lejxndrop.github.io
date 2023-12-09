@@ -47,7 +47,7 @@ header {
     display: none;
 }
 
-@media  screen and (max-width:1000px) {
+@media  screen and (max-width:1000px) {                       
     .Open,
     .Close {
     display: block;
@@ -55,8 +55,8 @@ header {
     font-size: 7rem;
     background-color: transparent;
 cursor: pointer;
-
 }
+
     .Open {
         color: #ffffff;
     }
@@ -92,7 +92,7 @@ cursor: pointer;
     align-items: end;
 }
 
-
+}
 
 /*
 }

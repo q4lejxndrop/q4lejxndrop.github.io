@@ -341,17 +341,19 @@ position: relative;
     
 /* Desarrollador */
     .T4 {
-        position:relative;
-        top: 390px;
+        position:absolute;
+        float: inline-end;
+     
+        left:900;
     }
     
-/* Creditos */
+/* Creditos MADE IN */
     .Creditos {
         position:relative;
         top: 290px;
     }
 
-/* Eslogan */
+/* Eslogan 
     .Eslogan {
         font-size: 10rem;
         position:absolute;
@@ -360,12 +362,12 @@ position: relative;
         left: 200;
      
     }
-
+*/
 
 
     /*Video de fondo*/
 #BK {
-    min-height: 100vh;
+    min-height: 10vh;
     position: relative;
 }
 video {

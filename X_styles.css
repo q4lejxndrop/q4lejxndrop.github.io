@@ -318,24 +318,21 @@ position: relative;
    
 /* Bandera y Sombrero */
 
-.colombia01 {
-    position: relative;
-    }
-    
+
     .colombia01 img {
         width:25px;
         height:auto;
-    position: absolute;
-    top: 195px;
-    }
-    .colombia02 {
     position: relative;
+    top: 260px;
+    left: 4px;
     }
+
     .colombia02 img {
         width: 30px;
         height:auto;
-        position:absolute;
-        top:225px;
+        position:relative;
+        top:250px;
+        left: 2px;
     }
     
     
@@ -344,7 +341,7 @@ position: relative;
         position:absolute;
         float: inline-end;
      
-        left:900;
+    
     }
     
 /* Creditos MADE IN */

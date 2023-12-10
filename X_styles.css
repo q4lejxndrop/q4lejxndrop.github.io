@@ -83,7 +83,7 @@ cursor: pointer;
 
 
 .Nav_List.visible {
-    opacity: 1;
+    opacity: 10;
     visibility: visible;
 }
 
@@ -323,7 +323,7 @@ position: relative;
     }
     
     .colombia01 img {
-        width:4%;
+        width:25px;
         height:auto;
     position: absolute;
     top: 195px;
@@ -332,7 +332,7 @@ position: relative;
     position: relative;
     }
     .colombia02 img {
-        width: 4%;
+        width: 30px;
         height:auto;
         position:absolute;
         top:225px;

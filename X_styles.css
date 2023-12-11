@@ -176,20 +176,31 @@ cursor: pointer;
 /*Caracteristicas del texto*/
 .Titulo_01 {
     position: relative;
+   margin-top: 1rem;
+   margin-left: 1rem;
     font-size: 20px;
-    color: black;
+
 }
 
 .Eslogan_02 {
-    top: -20px;
+    position: relative;
+margin-top: 10px;
+margin-left: 20px;
     font-size: 10px;
+    color: #000;
+    
    }
 
 .Inicio {
     position: relative;
-top: 20px;
-    font-size: 15px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    font-size: 18px;
     letter-spacing: 8px;
+    text-align: center;
+    opacity: 65%;
+    
 }
 h1 {
     color: white;
@@ -215,7 +226,7 @@ p3 {
     color: white;
 }
 .T4 {
-    float:inline-end ;
+    
     color: white;
     letter-spacing: 3px;
 }

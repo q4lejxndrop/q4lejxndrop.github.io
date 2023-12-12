@@ -192,7 +192,7 @@ margin-left: 20px;
    }
 
 .Inicio {
-  
+  top:30px;
     position: relative;
     display: flex;
   align-items: center;
@@ -388,6 +388,7 @@ video {
     height: 100%;
     object-fit: cover;
 }
+
 .Capa {
     position: absolute;
     top: 0;

@@ -155,3 +155,9 @@ filter: grayscale(5%);
             filter: grayscale(5%);  
           
         }
+
+
+        .W_RAR a {
+        text-decoration: none;
+        cursor: pointer;
+        }

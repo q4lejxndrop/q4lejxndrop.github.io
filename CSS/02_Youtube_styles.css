@@ -11,6 +11,37 @@ body {
 
 /*Logo tecnimux*/  
 .Logo_Tx {
+    position: fixed;
     max-width: 5rem;
     cursor: pointer;
     }
+
+    .Canal_YT { 
+        position: absolute;
+        margin-left:40rem;
+        margin-top: 7rem;
+        background-color: #4CAF50; 
+        color: white;              
+        padding: 2px 50px;         
+        border: 8px;              
+        border-radius: 5px;         
+        cursor: pointer;           
+        text-align: center;
+    }
+
+   
+
+
+
+   
+
+    .Canal_YT a { 
+    text-decoration: none;
+}
+    
+
+    .Canal_YT a:hover {
+        text-decoration: underline;
+    }
+
+

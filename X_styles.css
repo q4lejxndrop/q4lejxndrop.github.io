@@ -22,7 +22,7 @@ header {
     align-items:center;
     justify-content:space-between ;
     padding: 1rem;
-    background-color: rgba(44, 43, 44, 0.747);
+    background-color: rgba(44, 43, 44, 0.966);
     font-size: 1.5rem;
 }
 /*Logo tecnimux*/  
@@ -76,7 +76,7 @@ cursor: pointer;
     top: 0;
     right:0;
     bottom:0;
-    background-color: #3b3b3b;
+    background-color: #000000;
     padding:8rem ;
     box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
 }
@@ -203,7 +203,8 @@ margin-left: 20px;
     text-align: center;
     opacity: 65%;
     text-decoration: none;
-    color: #000;
+    color: #fffcfc63;
+    cursor: pointer;
 }
 
 .Inicio img {
@@ -335,7 +336,8 @@ position: relative;
 
 .W01{
     position:relative;
-    top: 30px;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
    
@@ -343,34 +345,35 @@ position: relative;
 
 
     .colombia01 img {
-        width:25px;
+        width:10%;
         height:auto;
     position: relative;
-    top: 260px;
-    left: 4px;
+    margin-top: 8rem;
+    margin-left: 1rem;
+
     }
 
     .colombia02 img {
-        width: 30px;
+        width: 10%;
         height:auto;
         position:relative;
-        top:250px;
-        left: 2px;
+        margin-top: -1rem;
+        margin-left: 1rem;
     }
     
     
 /* Desarrollador */
     .T4 {
-        position:absolute;
-        float: inline-end;
-     
-    
+        position:relative;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
     }
     
 /* Creditos MADE IN */
     .Creditos {
         position:relative;
-        top: 290px;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
     }
 
 /* Eslogan 
@@ -415,4 +418,10 @@ video {
     position: relative;
     text-decoration: none;
     color: #d0ff00;
+}
+
+.iniciar_s h2 {
+    text-decoration: none;
+    color: #d0ff00;
+    padding:1rem ;
 }

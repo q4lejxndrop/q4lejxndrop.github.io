@@ -176,13 +176,13 @@ cursor: pointer;
 /*Caracteristicas del texto*/
 .Titulo_01 {
     position: relative;
-   margin-top: 1rem;
-   margin-left: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     font-size: 20px;
 
 }
-
-.Eslogan_02 {
+/*
+_02 {
     position: relative;
 margin-top: 10px;
 margin-left: 20px;
@@ -190,19 +190,29 @@ margin-left: 20px;
     color: #000;
     
    }
+*/
 
-.Inicio {
-  top:30px;
+.Inicio a {
+    top:30px;
     position: relative;
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
     letter-spacing: 8px;
     text-align: center;
     opacity: 65%;
-  
+    text-decoration: none;
+    color: #000;
 }
+
+.Inicio img {
+    width: 10px;
+    height: 10px;
+}
+
+
+
 h1 {
     color: white;
     letter-spacing: 4px;
@@ -401,4 +411,8 @@ video {
 }
 
 
-
+.iniciar_s a {
+    position: relative;
+    text-decoration: none;
+    color: #d0ff00;
+}

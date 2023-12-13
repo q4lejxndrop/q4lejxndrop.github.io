@@ -13,19 +13,20 @@ body {
 .form-login {
     width: 400px;
     height: 340px;
-    background :rgba(37, 32, 32, 0.89) ;
+    background :rgba(37, 32, 32, 0.89);
     margin: auto;
     margin-top: 180px;
     box-shadow: 7px 13px 37px #000;
     padding: 20px 30px;
-    border-top:4px solid rgb(109, 28, 163)
+    border-top:4px solid rgb(109, 28, 163);
     color: white;
 }
+
 .form-login h5 {
     margin:0 ;
     text-align: center;
-    height: 40px;
-    margin-button: 30px;
+    height:40px;
+    margin-button:30px;
     border-button:1px solid;
     font-size: 20px;
 }

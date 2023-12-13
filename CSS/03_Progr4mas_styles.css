@@ -99,56 +99,10 @@ color:goldenrod;
 
 
 /* iconos */
-.A_PREMIERE img{
-width:6%;
-height:auto;
-filter: grayscale(5%);
-}
 
-.A_PHOTOSHOP img{
-width:6%;
-height:auto;
-left: 40px;
-filter: grayscale(5%);
-}
+        
 
-.A_ILLUSTRATOR img{
-    width:6%;
-height: auto;
-left: 80px;
- filter: grayscale(5%); 
-}
-    
-.A_AFTER_EFFECTS img{
-    width:6%;
- height:auto;
-left: 40px;
-filter: grayscale(5%);
-}
-
-.VM_WARE img{
-    width:6%;
-    height:auto;
-   left: 40px;
-   filter: grayscale(5%);
-   }  
-
-
-   .S_OFFICE img{
-    width:10%;
-    height:auto;
-    left: 40px;
-    filter: grayscale(5%);
-   }
-
-
-   .KMS_PICO img{
-    width:6%;
-    height:auto;
-    left: 40px;
-    filter: grayscale(5%);
-   }
-        .LOGO_WRAR img {
+        .L-A_PREMIERE img {
             width:6%;
             height:auto;
             left: 40px;
@@ -157,7 +111,99 @@ filter: grayscale(5%);
         }
 
 
-        .W_RAR a {
+        .A_PREMIERE a {
         text-decoration: none;
         cursor: pointer;
         }
+
+
+        .L-A_PHOTOSHOP img {
+            width:6%;
+            height:auto;
+            left: 40px;
+            filter: grayscale(5%);  
+          
+        }
+
+
+        .A_PHOTOSHOP a {
+        text-decoration: none;
+        cursor: pointer;
+        }
+
+        .L-A_ILLUSTRATOR img {
+            width:6%;
+            height:auto;
+            left: 40px;
+            filter: grayscale(5%);  
+        }
+
+        .A_ILLUSTRATOR a {
+            text-decoration: none;
+            cursor: pointer;
+            }
+
+            .L-A_AFTER_EFFECTS img {
+                width:6%;
+                height:auto;
+                left: 40px;
+                filter: grayscale(5%);  
+            }
+    
+            .A_AFTER_EFFECTS a {
+                text-decoration: none;
+                cursor: pointer;
+                }
+
+                .L-VM_WARE img {
+                    width:6%;
+                    height:auto;
+                    left: 40px;
+                    filter: grayscale(5%);  
+                }
+        
+                .VM_WARE a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    }
+
+                    .L-S_OFFICE img {
+                        width:6%;
+                        height:auto;
+                        left: 40px;
+                        filter: grayscale(5%);  
+                    }
+            
+                    .S_OFFICE a {
+                        text-decoration: none;
+                        cursor: pointer;
+                        }
+
+                        .L-KMS_PICO img {
+                            width:6%;
+                            height:auto;
+                            left: 40px;
+                            filter: grayscale(5%);  
+                        }
+                
+                        .KMS_PICO a {
+                            text-decoration: none;
+                            cursor: pointer;
+                            }
+
+
+                    .LOGO_WRAR img {
+                        width:6%;
+                        height:auto;
+                        left: 40px;
+                        filter: grayscale(5%);  
+                      
+                    }
+            
+            
+                    .W_RAR a {
+                    text-decoration: none;
+                    cursor: pointer;
+                    }
+
+

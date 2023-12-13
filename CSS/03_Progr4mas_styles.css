@@ -107,7 +107,7 @@ color:goldenrod;
             height:auto;
             left: 40px;
             filter: grayscale(5%);  
-          
+          text-decoration: none;
         }
 
 
@@ -115,7 +115,7 @@ color:goldenrod;
         text-decoration: none;
         cursor: pointer;
         }
-
+        
 
         .L-A_PHOTOSHOP img {
             width:6%;

@@ -1,18 +1,22 @@
+* {
+    cursor: url("/CURSOR/cursor.png"),auto ;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
 body {
 font-family: batman,sans-serif;
-margin: 0;
-
 }
+a  {
+    cursor: url("/CURSOR/cursor02.png"),auto ;
+    }
 
-* {
-    margin: 0;
-padding:0;
-box-sizing: border-box;
-}
 @font-face {
     font-family: batman;
     src: url(FUENTES/batmfa_.ttf)
 }
+
 
   
 header {
@@ -31,16 +35,22 @@ header {
     cursor: pointer;
     background-color:transparent;
 }
+
+
+
+
 .Nav_Bar {
     list-style: none;
     display: flex;
-    gap: 2rem;
-        align-items: end;
+    gap: 1rem;
+    align-items: end;
 }
 .Nav_Bar li a {
     text-decoration: none;
     color: #00ff88;
 }
+
+
 
 .Open,
 .Close {

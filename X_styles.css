@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
     }
-    
+
 body {
 font-family: batman,sans-serif;
 }
@@ -31,9 +31,10 @@ header {
 }
 /*Logo tecnimux*/  
 .Logo_Tx {
-    max-width: 5rem;
+    max-width:5rem;
     cursor: pointer;
     background-color:transparent;
+cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 
 
@@ -103,6 +104,9 @@ header {
 }
 
 }
+.Logo_Tx {
+    cursor: url("/CURSOR/cursor02.png"),auto ;
+    }
 
 /*
 }
@@ -221,6 +225,11 @@ margin-left: 20px;
 .Inicio img {
     width: 10px;
     height: 10px;
+}
+
+.iniciar_s a {
+
+        cursor: url("/CURSOR/cursor02.png"),auto ;
 }
 
 
@@ -428,7 +437,7 @@ video {
 
 .iniciar_s a {
     position: relative;
-    text-decoration:underline ;
+    text-decoration:underline ; 
 }
 
 .iniciar_s h2 {
@@ -439,5 +448,5 @@ video {
 
 .iniciar_s a {
     text-decoration: underline;
-    color: #688b07;
+    color: #688b07;   
 }

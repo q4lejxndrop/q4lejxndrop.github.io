@@ -11,7 +11,9 @@ body {
 
 /*Logo tecnimux*/  
 .Logo_Tx {
-    position: fixed;
+    position: absolute;
+    right: 0;
+    top: 0;
     max-width: 5rem;
     cursor: pointer;
     }

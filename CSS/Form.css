@@ -5,6 +5,17 @@
     box-sizing:border-box;
 }
 
+/*Logo tecnimux*/  
+.Logo_Tx {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 5rem;
+    cursor: pointer;
+    }
+
+
+    
 body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-image: url(/BgYT.jpg);

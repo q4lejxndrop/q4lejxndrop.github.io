@@ -364,15 +364,16 @@ position: relative;
     
 /* Desarrollador */
     .T4 {
-        position:relative;
-        padding-left: 1rem;
-        padding-top: 1.5rem;
+        position:absolute;
+        bottom: 10;
+        left: 1rem;
     }
     
 /* Creditos MADE IN */
     .Creditos {
+   
         position:relative;
-        margin-top: 0.5rem;
+        bottom: 1;
         margin-left: 1rem;
     }
 

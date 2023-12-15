@@ -1,26 +1,28 @@
-body {
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    }
+    /*Logo tecnimux*/  
+    .Logo_Tx {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 5rem;
+        cursor: pointer;
+        }
+        
+    body {
     background-image:url(/FLIPPERZERO.jpeg);
     background-size: contain;
     background-repeat: repeat;
     }
-   
+
     @font-face {
         font-family: batman;
         src: url(/FUENTES/batmfa_.ttf)
        }
-* {
-margin: 0;
-padding:0 ;
-box-sizing: border-box;
-}
-/*Logo tecnimux*/  
-.Logo_Tx {
-    position: absolute;
-    right: 0;
-    top: 0;
-    max-width: 5rem;
-    cursor: pointer;
-    }
+
     
   
 
@@ -40,13 +42,16 @@ color:goldenrod;
 }
 
 .btn {
-    padding: 1.5rem 6rem;
+    padding: 1rem 3rem;
     background:#2b2a2a ;
     border:0.1rem solid #00ff0d;
     cursor:pointer;
-    position: relative;
-    border-radius: .3rem;
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+    border-radius: .4rem;
     overflow: hidden;
+    padding-left: 5rem;
 }
     
 .btn::before {
@@ -55,10 +60,10 @@ color:goldenrod;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 1.6rem;
+    font-size: 0.8rem;
     color: #ffff;
     text-transform: uppercase;
-    letter-spacing: .3rem;
+    letter-spacing: .2rem;
     font-weight: 700;
     text-shadow: .1rem .1rem .1rem #333;
     transition: .2s ease;
@@ -70,7 +75,7 @@ color:goldenrod;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: #ffff;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -203,7 +208,31 @@ color:goldenrod;
                     cursor: pointer;
                     }
 
-
                     label {
+                        position: fixed;
                         color: greenyellow;
+                        font-size: 2rem;
+                        left: 0;
+                        top: 0;
+                    }
+                    input  {
+                        position: relative;
+                        padding-left: 4px;
+                        background-color:#ffffff;
+                        max-width: 90px;
+                        outline:none;
+                        font-size: 1rem;
+                        border: 0;
+                        text-align:start;
+                        top: .8rem;
+                        left: 10.5rem;
+                    
+                        
+                        
+                    }
+                   
+                    .pw {
+                        position: fixed;
+                        align-items: center;
+
                     }

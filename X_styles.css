@@ -148,43 +148,43 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 
 
 
-/* ( S REDES SOCIALES) 
+
 .S1 img {
-    width: 5rem;
+    max-width: 3rem;
     height: auto;
 
-    position: fixed;
-    top: 8px;
-    left:400px;
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
 
 .S2 img {
-    width: 5rem;
+    max-width: 3rem;
     height: auto;
 
-    position: fixed;
-    top:8px;
-    left:450px;
+    position: absolute;
+    top: 58%;
+    right:0;
 }
 
 .S3 img {
-    width: 5rem;
+    max-width:3rem;
     height: auto;
 
-    position: fixed;
-    top: 3px;
-    left:500px;
+    position: absolute;
+    top: 66%;
+    right: 0;
 }
 
 .S4 img {
-    width: 3rem;
-    height: auto;
+    max-width: 2.5rem;
+    height: 2.5rem;
 
-    position: fixed;
-    top: 8px;
-    left:550px;
+    position: absolute;
+    top: 74%;
+    right: 0;
 }
-*/
+
 
 
 /*Caracteristicas del texto*/

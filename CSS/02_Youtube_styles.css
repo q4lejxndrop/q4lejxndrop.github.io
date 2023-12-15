@@ -18,7 +18,7 @@ body {
     cursor: pointer;
     }
 
-    .Canal_YT { 
+  .Cl_YT { 
         position: absolute;
         margin-left:40rem;
         margin-top: 7rem;
@@ -37,12 +37,12 @@ body {
 
    
 
-    .Canal_YT a { 
+    .C_YT a { 
     text-decoration: none;
 }
     
 
-    .Canal_YT a:hover {
+    .C_YT a:hover {
         text-decoration: underline;
     }
 

@@ -4,7 +4,18 @@
     <title>P R O G R 4 M AS</title>
     <link rel="icon" href="/MASCARA01.png" type="image/png">
     <link rel="stylesheet" href="/CSS/03_Progr4mas_styles.css">
+
+    <!--js copy paste-->
+<script>
+function copiar() {
+let texto = document.getElementById('texto');
+texto.select();
+texto.setSelectionRange(0,999);
+document.execCommand('copy');
+}
+</script>
 </head>
+
 <body>
 <!--Logo Tecnimux-->
 <a href="/index.html">
@@ -13,11 +24,15 @@
 
 
 <header>
-<h1>Password :</h1> 
+    <!--COPY PASTE-->
+<br>
+<br>
+<label>Password :</label>
+<input type="text" value="rxtsel" id="texto" readonly>
+<button onclick="copiar();"class="btn"></button>
 
-<button class="btn"></button> 
 
-    </header>
+</header>
 
 
     <script src="/JS/Progr4mas.js"></script>
@@ -163,5 +178,12 @@
         <p>MEDIAFIRE</p> 
     </a>
 </div>
+
+
+
+
+
+
+
 </body>
 </html>

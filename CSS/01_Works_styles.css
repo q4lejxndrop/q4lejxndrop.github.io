@@ -74,6 +74,30 @@ body {
     }
 
 
+    @media screen and (max-width: 800px) {
+        .container-img {
+            width: 95%;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            grid-template-rows: 200px;
+        }
+        .container-img .box-img:nth-child(1){
+            grid-column-start:span 1;
+        }
+    }
+        
+
+    @media screen and (max-width: 500px) {
+        .container-img {
+            width:90%;
+            grid-template-columns:repeat1, (1, 1fr);
+        }
+        .container-img .box-img img {
+            height: 200px
+        }
+    }
+    
+
 
 
   

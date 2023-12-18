@@ -35,7 +35,7 @@ header {
 
 .Nav_List :hover {
     width: 10rem;
-    height: 2rem;
+    height: 0.5px;
     background-color: #3333338f;
     display: flex;
     align-items: center;
@@ -60,7 +60,18 @@ header {
     background-color:transparent;
 cursor: url("/CURSOR/cursor02.png"),auto ;
 }
+.Logo_Tx:hover {
+    width: 100px;
+    height: 81px;
+    display: flex;
+    border-radius: 2%; 
+    transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
+}
 
+.Logo_Tx:hover {
+    background-color: #51317ac9; 
+    opacity: 0.1; 
+}
 
 
 
@@ -170,49 +181,45 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 
 
 
-
-
-
-
-
-
-
+/*REDES SOCIALES*/
 .S1 img {
-    max-width: 3rem;
+    max-width: 2.2rem;
     height: auto;
 
-    position: absolute;
-    top: 50%;
-    right: 0;
+    position: fixed;
+    bottom:90px;
+    right: 0px;
 }
 
 .S2 img {
-    max-width: 3rem;
+    max-width: 1.8rem;
     height: auto;
 
-    position: absolute;
-    top: 58%;
-    right:0;
+    position: fixed;
+    bottom: 64px;
+    right:2px;
 }
 
 .S3 img {
-    max-width:3rem;
+    max-width:2rem;
     height: auto;
 
-    position: absolute;
-    top: 66%;
-    right: 0;
+    position: fixed;
+    bottom: 32px;
+    right: 0px;
 }
 
 .S4 img {
-    max-width: 2.5rem;
-    height: 2.5rem;
+    max-width: 1.4rem;
+    height:auto;
 
-    position: absolute;
-    top: 74%;
-    right: 0;
+    position: fixed;
+    bottom: 5px;
+    right: 6px;
 }
+.S4:hover {
 
+}
 
 
 /*Caracteristicas del texto*/
@@ -255,10 +262,6 @@ margin-left: 20px;
     height: 10px;
 }
 
-.iniciar_s a {
-
-        cursor: url("/CURSOR/cursor02.png"),auto ;
-}
 
 
 
@@ -380,7 +383,10 @@ position: relative;
     top: 238px;
 }
 */
-/* Login */
+
+
+
+
 
 .welcome{
     position:relative;
@@ -391,38 +397,42 @@ position: relative;
    
 /* Bandera y Sombrero */
 
-
+/*SOMBRERO*/
     .colombia01 img {
-        width:10%;
+        width: 30px;
         height:auto;
     position: relative;
-    margin-top: 8rem;
-    margin-left: 1rem;
+    top: 468px;
+    left: 16px;
 
     }
-
+/*BANDERA*/
     .colombia02 img {
-        width: 10%;
+        width: 30px;
         height:auto;
         position:relative;
-        margin-top: -1rem;
-        margin-left: 1rem;
+        top: 460px;
+        left: 15px;
     }
     
     
 /* Desarrollador */
     .T4 {
-        position:absolute;
-        bottom: 10;
-        left: 1rem;
+        position:relative;
+        padding: 8px;
+        letter-spacing:2px;
+        margin: 0;
     }
     
 /* Creditos MADE IN */
     .Creditos {
    
         position:relative;
-        bottom: 1;
-        margin-left: 1rem;
+        margin-left: 3.5rem;
+        margin-top: 28rem;
+        letter-spacing: 4px;
+        font-size: 6;
+
     }
 
 /* Eslogan 
@@ -463,9 +473,8 @@ video {
 }
 
 
-.iniciar_s a {
+.iniciar_s  {
     position: relative;
-    text-decoration:underline ; 
 }
 
 .iniciar_s h2 {

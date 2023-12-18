@@ -12,6 +12,18 @@
         max-width: 5rem;
         cursor: pointer;
         }
+        .Logo_Tx:hover {
+            width: 100px;
+            height: 81px;
+            display: flex;
+            border-radius: 2%; 
+            transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
+        }
+        
+        .Logo_Tx:hover {
+            background-color: #51317ac9; 
+            opacity: 0.1; 
+        }
         
     body {
     background-image:url(/FLIPPERZERO.jpeg);

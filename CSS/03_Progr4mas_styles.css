@@ -5,6 +5,7 @@
     }
     /*Logo tecnimux*/  
     .Logo_Tx {
+        z-index:2 ;
         position: absolute;
         right: 0;
         top: 0;
@@ -22,6 +23,16 @@
         font-family: batman;
         src: url(/FUENTES/batmfa_.ttf)
        }
+       header {
+        position: fixed;
+        padding:40px;
+       background-color:#000000;
+       color: fff;
+       margin: 0;
+       top: 0;
+       width: 100%;
+    }
+
 
     
   
@@ -105,6 +116,7 @@ color:goldenrod;
         
 
         .L-A_PREMIERE img {
+            z-index: 2;
             width:6%;
             height:auto;
             left: 40px;
@@ -210,10 +222,11 @@ color:goldenrod;
 
                     label {
                         position: fixed;
+                        align-items: center;
                         color: greenyellow;
                         font-size: 2rem;
                         left: 0;
-                        top: 0;
+                        top: 50;
                     }
                     input  {
                         position: relative;

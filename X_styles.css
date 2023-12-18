@@ -6,6 +6,8 @@
     }
 
 body {
+    margin: 0;
+    padding: 0;
 font-family: batman,sans-serif;
 }
 a  {
@@ -486,6 +488,18 @@ video {
 .iniciar_s a {
     text-decoration: underline;
     color: #688b07;   
+}
+
+footer {
+    background-color: #66ff00;
+    color: #fc0000;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ff0000;
+    text-decoration: none;
 }
 
 

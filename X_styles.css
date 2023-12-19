@@ -189,36 +189,126 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     max-width: 2.2rem;
     height: auto;
 
-    position: fixed;
-    bottom:90px;
-    right: 0px;
 }
-.S2 img {
-    max-width: 1.8rem;
-    height: auto;
+    /* Estilo inicial del elemento */
+.S1 {
+    background-color: #6034db;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 25px;
+    right: 20px;
+    bottom: 120px;
+  }
 
-    position: fixed;
-    bottom: 64px;
-    right:2px;
+    /* Efecto hover con animación */
+    .S1:hover {
+        width: 30px;
+        height: 25px;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
+        align-items: center;
+      }
+  
+      /* Efecto hover agresivo */
+      .S1:hover {
+        transform: scale(1) rotate(180deg);
+        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+      }
+   /*NEGRO TRANSPARENTE
+      #00000000;
+*/
+
+.S2 img {
+    max-width: 2.2rem;
+    height: auto;
 }
+ 
+.S2 {
+    background-color: #6034db;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 25px;
+    right: 20px;
+    bottom: 80px;
+  }
+
+    
+    .S2:hover {
+        width: 30px;
+        height: 25px;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
+        align-items: center;
+      }
+  
+    
+      .S2:hover {
+        transform: scale(1) rotate(360deg);
+        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+      }
+
+
 
 .S3 img {
-    max-width:2rem;
+    max-width: 2.2rem;
     height: auto;
-
-    position: fixed;
-    bottom: 32px;
-    right: 0px;
 }
+.S3 {
+    background-color: #6034db;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 25px;
+    right: 20px;
+    bottom: 40px;
+  }
+
+    /* Efecto hover con animación */
+    .S3:hover {
+        width: 30px;
+        height: 25px;
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
+        align-items: center;
+      }
+  
+      /* Efecto hover agresivo */
+      .S3:hover {
+        transform: scale(1) rotate(360deg);
+        background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+      } 
 
 .S4 img {
-    max-width: 1.4rem;
-    height:auto;
-
-    position: fixed;
-    bottom: 5px;
-    right: 6px;
+    max-width: 1.2rem;
+    height: auto;
 }
+
+.S4 {
+    background-color: #6034db;
+    color: #ffffff;
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 25px;
+    right: 20px;
+    bottom: 0px;
+      }
+    
+        /* Efecto hover con animación */
+        .S4:hover {
+            width: 30px;
+            height: 25px;
+            transition: transform 0.3s ease, background-color 0.3s ease; /* Transición suave en transform y color de fondo */
+            align-items: center;
+          }
+      
+          /* Efecto hover agresivo */
+          .S4:hover {
+            transform: scale(1) rotate(360deg);
+            background-color:   #e74c3c;  /* Cambia el color de fondo al pasar el cursor */
+          }
+  
+
+
+
 
 /*Caracteristicas del texto*/
 /*

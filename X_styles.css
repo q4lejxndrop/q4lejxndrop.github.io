@@ -144,11 +144,12 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     align-items: end;
 }
 
-}
+
+
 .Logo_Tx {
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
-
+}
 /*
 }
 
@@ -192,7 +193,6 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
     bottom:90px;
     right: 0px;
 }
-
 .S2 img {
     max-width: 1.8rem;
     height: auto;
@@ -430,7 +430,6 @@ position: relative;
         margin-top: 28rem;
         letter-spacing: 4px;
         font-size: 6;
-
     }
 
 /* Eslogan 
@@ -487,10 +486,12 @@ video {
 }
 
 footer {
+    padding: 20px;
     background-color: #66ff00;
     color: #fc0000;
-    padding: 20px;
     text-align: center;
+    min-height: 1vh;
+
 }
 
 footer a {

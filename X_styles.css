@@ -149,39 +149,12 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
 .Logo_Tx {
     cursor: url("/CURSOR/cursor02.png"),auto ;
     }
+    footer {
+        position: relative;
+        width:100%;
+        height: 1;
+    }
 }
-/*
-}
-
-.Redes_sociales.visible {
-    opacity: 1;
-    visibility: visible;
-}
-
-.Redes_s {
-    flex-direction: column;
-    align-items: end;
-}
-
-
-.Redes_sociales {
-    opacity: 0;
-    visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    gap:1rem ;
-    position: fixed;
-    top: 0;
-    right:0;
-    bottom:0;
-    background-color: #3b3b3b;
-    padding:8rem ;
-    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-}
-*/
-
-
 
 
 /*REDES SOCIALES*/
@@ -307,28 +280,6 @@ cursor: url("/CURSOR/cursor02.png"),auto ;
           }
   
 
-
-
-
-/*Caracteristicas del texto*/
-/*
-.Titulo_01 {
-    position: relative;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    font-size: 20px;
-}
-*/
-/*
-_02 {
-    position: relative;
-margin-top: 10px;
-margin-left: 20px;
-    font-size: 10px;
-    color: #000;
-    
-   }
-*/
 
 .Inicio a {
     top:30px;

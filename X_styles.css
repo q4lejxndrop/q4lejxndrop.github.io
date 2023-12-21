@@ -343,98 +343,6 @@ p3 {
     letter-spacing: 3px;
 }
 
-/* Iconos 
-.L1 {
-position: relative;
-}
-.L1 img {
-    width: 12.5%;
-    height: auto;
-
-    position: absolute;
-    top: -18px;
-    left:20px;
-
-}
-
-
-.L2 {
-    position: relative;
-}
-.L2 img {
-    width: 10%;
-    height: auto;
-
-    position: absolute;
-    top: -10px;
-    left:170px;
-}
-
-.L3 {
-    position: relative;
-
-}
-.L3 img {
-    width: 10%;
-    height: auto;
-
-    position: absolute;
-    top: -10px;
-    left: 320px;
-}
-
-.L4 {
-    position: relative;
-}
-.L4 img {
-    width: 8%;
-    height: auto;
-
-    position: absolute;
-    top:5px;
-    left: 493px;
-
-}
-*/
-
-/*( P ) Palabras de botones 
-
-.P01  {
-    position: absolute;
-    
-    left:46px;
-    top: 238px;
-    
-}
-
-
-
-.P02 {
-    position: absolute;
-    left: 179px;
-    top: 238px;
-}
-
-
-
-.P03  {
-    position: absolute;
-    left: 320px;
-    top: 238px;
-
-}
-
-
-.P04 {
-    position:absolute;
-    left:490px;
-    top: 238px;
-}
-*/
-
-
-
-
 
 .welcome{
     position:relative;
@@ -482,16 +390,7 @@ position: relative;
         font-size: 6;
     }
 
-/* Eslogan 
-    .Eslogan {
-        font-size: 10rem;
-        position:absolute;
-        opacity: 0.5;
 
-        left: 200;
-     
-    }
-*/
 
 
     /*Video de fondo*/
@@ -535,25 +434,12 @@ video {
     color: #688b07;   
 }
 
+
+
+
 footer {
-   position: relative;
-   bottom: -100px;
-   width: 100%;
-   height: auto;
-   background-color: #66ff00;
-    
-}
 
-footer div {
-    position: relative;
-    color: #fc0000;
-    text-align: center;
-    z-index: 2;
-    bottom: 0;
+    position: absolute;
+    right: 50%;
+    height: 50%;
 }
-footer a {
-    color: #ff0000;
-    text-decoration: none;
-}
-
-

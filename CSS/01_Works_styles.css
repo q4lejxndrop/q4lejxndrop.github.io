@@ -59,7 +59,7 @@ img {
 
 @media screen  (max-width: 600px;) {
     .column {
-        flex:100%
+        flex:100%;
     }
 
 }

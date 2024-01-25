@@ -1,0 +1,69 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+    font-family: batman,sans-serif;
+    background-image:url(/P3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    }
+   
+    @font-face {
+        font-family: batman;
+        src: url(/FUENTES/batmfa_.ttf)
+    }
+/*Logo tecnimux*/  
+.Logo_Tx {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    max-width: 5rem;
+    cursor: pointer;
+    }
+    .Logo_Tx:hover {
+        width: 100px;
+        height: 81px;
+        display: flex;
+        border-radius: 2%; 
+        transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
+    }
+    
+    .Logo_Tx:hover {
+        background-color: #51317ac9; 
+        opacity: 0.1; 
+    }
+
+img {
+        width: 100%;
+
+    }
+
+.container-img {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+
+@media screen  and (max-width: 600px) {
+    .column {
+        flex:100%;
+    }
+
+}
+    
+
+
+  

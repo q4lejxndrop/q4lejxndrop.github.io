@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    body {
+    background-image:url(/Yt.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+   
+    @font-face {
+        font-family: batman;
+        src: url(/FUENTES/batmfa_.ttf)
+    }
+
+/*Logo tecnimux*/  
+.Logo_Tx {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    max-width: 5rem;
+    cursor: pointer;
+    }
+    .Logo_Tx:hover {
+            width: 100px;
+            height: 81px;
+            display: flex;
+            border-radius: 2%; 
+            transition: background-color 0.1s ease, opacity 0.4s ease; /* Aplica transiciones suaves */
+        }
+
+        .Logo_Tx:hover {
+            background-color: #51317ac9; 
+            opacity: 0.1; 
+        }
+    
+
+
+
+
+
+
+    iframe {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+  .C_YT { 
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-90%, -50%);
+        background-color: #4CAF50;            
+        padding: 5px 2px;                    
+        border-radius: 10px;         
+        cursor: pointer; 
+        font-size: rem; 
+    }
+    
+    .C_YT a { 
+    text-decoration: none;
+}
+    
+
+    .C_YT a:hover {
+        text-decoration: underline;
+    }
+
+
+
+   

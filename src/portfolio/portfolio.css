@@ -27,6 +27,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -109,6 +110,7 @@ header {
 
 
 footer {
+    z-index: 10;
     position: sticky;
     bottom: 0;
     left: 0;
@@ -146,16 +148,19 @@ footer {
 
             & #btn-about-me {
 
+                &:hover svg {
+                    fill: var(--primary-color);
+                }
+
 
                 &:hover span {
-                    display: flex;
+                   display: flex;
                 }
             }
             
             & li {
                 position: relative;
                 font-size: .8rem;
-
 
                 & svg {
                     display: block;
@@ -178,13 +183,29 @@ footer {
                     display: none;
                 }
 
-                &:hover svg {
+                & svg:hover {
                     transform: scale(1.2);
                 }
+                
+                &:hover:nth-child(4) svg {
+                    stroke: var(--primary-color);
+                }
+
 
 
                 &:hover span {
                     display: flex;
+                }
+
+                &:active {
+                    opacity: .6;
+                }
+            }
+
+            & #btn-projects {
+
+                &:hover svg {
+                    stroke: var(--primary-color);
                 }
             }
 
@@ -201,7 +222,7 @@ footer {
 
 #home {
     position: relative;
-    min-height: 100vh;
+    min-height: calc(100vh - 94px);
     max-width: 800px;
 
     & .container-personal-info {
@@ -214,7 +235,12 @@ footer {
         align-items: center;
         flex-direction: column;
         gap: .5rem;
-        padding: 1rem 3rem ;
+        padding: 1rem 2rem;
+
+        & h2 {
+            width: 100%;
+            text-align: start;
+        }
 
         & p {
             font-size: 1rem;
@@ -235,7 +261,7 @@ footer {
             }
 
 
-            &:nth-child(1) {
+            &:nth-child(2) {
                 background-image: url(https://img.freepik.com/free-vector/gradient-colorful-background-template-design_698780-897.jpg?t=st=1732843600~exp=1732847200~hmac=d3469ed61c5825b83f33c55794f6e7cb0cf13576d3882e141fd06c25e5c4ec81&w=1380);
                 background-size: cover;
                 background-position: center;
@@ -258,7 +284,7 @@ footer {
             }
 
             
-            &:nth-child(2) {
+            &:nth-child(3) {
                 background-image: url(https://img.freepik.com/premium-photo/all-black-background-podium-square-step-stage-podium-with-grid-background-led-light-product-display-3d-render_182956-209.jpg);
                 background-size: cover;
                 background-position: center;
@@ -279,7 +305,7 @@ footer {
                   }
             }
 
-            &:nth-child(3) {
+            &:nth-child(4) {
                 background-image: url(https://img.freepik.com/free-vector/green-pyramid-background-geometric-3d-rendered-shape-vector_53876-157787.jpg?t=st=1732842754~exp=1732846354~hmac=6c671bb3889b8cfa2f7860ad8d82b60dbe7580ce7759322fa941afdde2723294&w=1380);
                 background-size: cover;
                 background-position: center;
@@ -300,7 +326,7 @@ footer {
                   }
             }
 
-            &:nth-child(4) {
+            &:nth-child(5) {
                 background-image: url(https://img.freepik.com/vector-premium/senal-patron-prueba-tv-vector-television-barras-colores-introduccion-senal-final-programacion-tv-ilustracion-barras-colores-smpte_230920-1253.jpg?w=360);
                 background-size: cover;
                 background-position: center;
@@ -428,6 +454,88 @@ footer {
     }
 }
 
+#toolkit {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+
+    & .bento-grid {
+        display: grid;
+        grid-template-columns: repeat(15, 1fr); /* 12 columnas iguales */
+        grid-template-rows: repeat(6, 1fr); /* 6 filas con igual tamaño */
+        gap: 0; /* Sin separación entre los elementos */
+        width: 100%;
+        height: 100%;
+        max-width: 1200px; /* Máximo ancho */
+      }
+  
+      .bento-grid div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 8px;
+        text-align: center;
+        margin: .2rem;
+      }
+  
+      /* Estilos para los elementos */
+
+      .item-toolkit {
+        position: relative;
+        overflow: hidden;
+
+        & h2 {
+            position: absolute;
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            padding: .5rem;
+            text-shadow: 0 0 10px var(--black);
+        }
+        & img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+      }
+      .item-1 { background: #FF5722; grid-column: span 6; grid-row: span 2; 
+    
+    }
+
+      .item-2 { background: #4CAF50; grid-column: span 5; grid-row: span 1; }
+      .item-3 { background: var(--white); grid-column: span 2; grid-row: span 2; 
+
+            & h2 {
+                z-index: 1;
+                transform: rotate(-90deg);
+            }
+
+            & img {
+                width: 600%;
+                transform: rotate(-90deg) translate(16% , -3%);
+            }
+        }
+      .item-4 { background: #FFC107; grid-column: span 7; grid-row: span 2; }
+      .item-5 { background: #9C27B0; grid-column: span 5; grid-row: span 1; }
+      .item-6 { background: #E91E63; grid-column: span 4; grid-row: span 1; 
+
+        & h2 {
+            z-index: 2;
+        }
+
+        & img:last-child {
+            z-index: 1;
+            position: absolute;
+            transform: rotate(-9deg) translateY(-10%);
+
+        }
+    }
+}
 #personal-info {
     display: flex;
 }

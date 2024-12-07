@@ -52,10 +52,15 @@ header {
         color: var(--primary-color);
     }
 
+    & h1 span {
+        filter: contrast(0);
+    }
+
     & img {
         height: auto;
         width: 80px;
         filter: drop-shadow(0px 0px 1px var(--white));
+        transition: all 0.3s ease-in-out;   
     }
 
     & .available {
@@ -97,6 +102,11 @@ header {
             gap: 1rem;
         }
     }
+}
+
+.rotate-avatar {
+    filter: drop-shadow(0px 0px 10px #ffffffb7);
+    transform: rotateY(180deg);
 }
 
 @keyframes radar {
@@ -240,6 +250,8 @@ footer {
         & h2 {
             width: 100%;
             text-align: start;
+            font-size: 2rem;
+            padding: 3rem 0 2rem 0;
         }
 
         & p {
@@ -460,19 +472,22 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
     display: none;
 
     & .bento-grid {
         display: grid;
         grid-template-columns: repeat(15, 1fr); /* 12 columnas iguales */
         grid-template-rows: repeat(6, 1fr); /* 6 filas con igual tamaño */
-        gap: 0; /* Sin separación entre los elementos */
+        gap: .5rem; /* Sin separación entre los elementos */
         width: 100%;
         height: 100%;
         max-width: 1200px; /* Máximo ancho */
       }
   
       .bento-grid div {
+        z-index: 10;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -481,6 +496,10 @@ footer {
         border-radius: 8px;
         text-align: center;
         margin: .2rem;
+
+        &:hover {
+            background-color: #634092;
+        }
       }
   
       /* Estilos para los elementos */

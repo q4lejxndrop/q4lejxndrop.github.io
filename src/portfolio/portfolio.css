@@ -515,6 +515,7 @@ footer {
         & .descrip-project {
             position: relative;
             display: flex;
+            max-width: 380px;
             justify-content: center;
             align-items: end;
             flex-direction: column;
@@ -857,7 +858,8 @@ footer {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: start;
+    flex-direction: column;
     height: 20vh;
     min-height: 20vh;
     width: 100%;
@@ -869,6 +871,12 @@ footer {
         & span {
             color: var(--primary-color);
         }
+    }
+
+    & p {
+        font-size: .8rem;
+        color: var(--primary-color);
+        padding-top: 3rem;
     }
 }
 

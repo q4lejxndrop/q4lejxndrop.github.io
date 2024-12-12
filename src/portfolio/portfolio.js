@@ -71,9 +71,9 @@ const avatar = $$$$('avatar');
 avatar.addEventListener('click', () => {
 sonido02.currentTime = 0;
 sonido02.play();
-avatar.classList.add('rotate-avatar');
+avatar.classList.add('style-avatar');
 
 setTimeout(() => {
-    avatar.classList.remove('rotate-avatar');
+    avatar.classList.remove('style-avatar');
 }, 2000)
 })

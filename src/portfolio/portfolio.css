@@ -103,6 +103,7 @@ header {
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        gap: 1rem;
         margin-top: 1rem;
 
         & h2 {
@@ -264,7 +265,9 @@ footer {
 
 #home {
     position: relative;
+    height: auto;
     min-height: calc(100vh - 94px);
+    width: 100%;
     max-width: 800px;
 
     & .container-personal-info {

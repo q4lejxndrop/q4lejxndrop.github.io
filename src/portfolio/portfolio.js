@@ -4,11 +4,14 @@ const $$$$ = (selector) => document.getElementById(selector);
 
 // Menu
 const btnAboutMe =  $$$$('btn-about-me');
-const btnProjects = $$$$('btn-projects');
+// const btnProjects = $$$$('btn-projects');
 const btnToolKit = $$$$('btn-toolkit');
 
-let personalInfo = $$$$('personal-info');
+// let personalInfo = $$$$('personal-info');
 let projects = $$$$('projects');
+let about = $$$$('about');
+let experience = $$$$('experience');
+let stack = $$$$('stack');
 let toolkit = $$$$('toolkit');
 
 const sonido = new Audio('/src/sonidos/Error4.mp3');
@@ -20,34 +23,38 @@ sonido.volume = 0.5;
 sonido02.load();
 
 btnAboutMe.addEventListener('click', () => {
-projects.style.display = 'none';
-toolkit.style.display = 'none';
-personalInfo.style.display = 'flex';
-sonido.currentTime = 0;
-sonido.play();
-});
-
-btnAboutMe.addEventListener('mouseenter', () => {
-    sonido02.currentTime = 0;
-    sonido02.play();
-})
-
-btnProjects.addEventListener('click', () => {
-personalInfo.style.display = 'none';
-toolkit.style.display = 'none';
+    about.style.display = 'block';
 projects.style.display = 'flex';
+experience.style.display = 'flex';
+stack.style.display = 'flex';
+toolkit.style.display = 'none';
 sonido.currentTime = 0;
 sonido.play();
 });
 
-btnProjects.addEventListener('mouseenter', () => {
-    sonido02.currentTime = 0;
-    sonido02.play();
-})
+// btnAboutMe.addEventListener('mouseenter', () => {
+//     sonido02.currentTime = 0;
+//     sonido02.play();
+// })
+
+// btnProjects.addEventListener('click', () => {
+// personalInfo.style.display = 'none';
+// toolkit.style.display = 'none';
+// projects.style.display = 'flex';
+// sonido.currentTime = 0;
+// sonido.play();
+// });
+
+// btnProjects.addEventListener('mouseenter', () => {
+//     sonido02.currentTime = 0;
+//     sonido02.play();
+// })
 
 btnToolKit.addEventListener('click', () => {
-personalInfo.style.display = 'none';
+about.style.display = 'none';
 projects.style.display = 'none';
+experience.style.display = 'none';
+stack.style.display = 'none';
 toolkit.style.display = 'flex';
 sonido.currentTime = 0;
 sonido.play();

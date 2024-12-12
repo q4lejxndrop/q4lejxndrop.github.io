@@ -180,11 +180,11 @@ footer {
             transition: all 0.3s ease-in-out;
 
 
-            & #btn-about-me {
+             & #btn-about-me {
 
-                &:hover svg {
+                /*&:hover svg {
                     fill: var(--primary-color);
-                }
+                } */
 
 
                 &:hover span {
@@ -200,30 +200,34 @@ footer {
                     display: block;
                     height: 35px;
                     width: 35px;
-                    transition: all 0.3 ease-in-out;
                 }
 
                 & span {
                     position: absolute;
-                    top: -110%;
+                    top: -150%;
                     left: 50%;
                     transform: translate(-50%, 0);
-                    border: 1px solid var(--primary-color);
+                    background-color:  var(--primary-color);
                     border-radius: 5px ;
                     margin-top: .5rem;
                     padding: 0 .5rem;
-                    color: var(--white);
+                    color: var(--black);
                     backdrop-filter: blur(30px);
                     display: none;
+
+                    @media screen and (max-width: 900px)  {
+                        top: 0;
+                        left: -60px;
+                    }
                 }
 
-                & svg:hover {
+                /* & svg:hover {
                     transform: scale(1.2);
-                }
+                } */
                 
-                &:hover:nth-child(4) svg {
+                /* &:hover:nth-child(4) svg {
                     stroke: var(--primary-color);
-                }
+                } */
 
 
 
@@ -236,12 +240,12 @@ footer {
                 }
             }
 
-            & #btn-projects {
+            /* & #btn-projects {
 
                 &:hover svg {
                     stroke: var(--primary-color);
                 }
-            }
+            } */
 
             & #btn-music {
                 position: relative;
@@ -249,6 +253,10 @@ footer {
                 justify-content: center;
                 align-items: center;
                 list-style: none;
+
+                & #btn-effects-on {
+                    display: none;
+                }
             }
         }
     }
@@ -654,7 +662,7 @@ footer {
         }
 
         @media screen and (max-width: 900px)  {
-            max-width: 270px;
+            max-width: 250px;
         }
     }
 }

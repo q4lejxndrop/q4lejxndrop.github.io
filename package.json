@@ -8,3 +8,6 @@
 select disk X
 attributes disk clear readonly
 exit
+
+02
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\StorageDevicePolicies" /v WriteProtect /t REG_DWORD /d 0 /f

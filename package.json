@@ -3,3 +3,8 @@
     "tailwindcss": "^3.4.11"
   }
 }
+
+
+select disk X
+attributes disk clear readonly
+exit
